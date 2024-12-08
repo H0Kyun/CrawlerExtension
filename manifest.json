@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Blogs",
+    "description": "개발 블로그 크롤링하는 익스텐션",
+    "version": "1.0",
+    "action": {
+        "default_icon": "images/dev_icon-32.png",
+        "default_title": "Click to open panel",
+        "default_popup": "index.html"
+    },
+    "background": {
+        "service_worker": "scripts/service-worker.js"
+    },
+    "icons": {
+        "16": "images/dev_icon-16.png",
+        "32": "images/dev_icon-32.png",
+        "48": "images/dev_icon-48.png",
+        "128": "images/dev_icon-128.png"
+    },
+    "permissions": ["sidePanel", "tabs"],
+    "side_panel": {
+        "default_path": "index.html"
+    },
+    "host_permissions": ["https://*/*"]
+}

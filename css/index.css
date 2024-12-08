@@ -1,0 +1,13 @@
+li {
+    list-style-type: none;
+}
+
+a:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
